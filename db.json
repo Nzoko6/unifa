@@ -1,0 +1,154 @@
+{
+  "departements": [
+    {
+      "id": 1,
+      "nom": "Math-Info",
+      "image": "/assets/maths.png",
+      "description": "Un département d’excellence dédié à la logique, la programmation et l’analyse scientifique."
+    },
+    {
+      "id": 2,
+      "nom": "Pharmacie",
+      "image": "/assets/plus.png",
+      "description": "Former des experts capables de relier science, santé et innovation thérapeutique."
+    },
+    {
+      "id": 3,
+      "nom": "Droit Privé",
+      "image": "/assets/law.png",
+      "description": "Comprendre et défendre les droits fondamentaux de la société moderne."
+    },
+    {
+      "id": 4,
+      "nom": "Science Criminelle",
+      "image": "/assets/spy.png",
+      "description": "Comprendre et défendre les droits fondamentaux de la société moderne."
+    },
+    {
+      "id": 5,
+      "nom": "Comptabilité",
+      "image": "/assets/compt.png",
+      "description": "Comprendre et défendre les droits fondamentaux de la société moderne."
+    },
+    {
+      "id": 6,
+      "nom": "Economie",
+      "image": "/assets/law.png",
+      "description": "Comprendre et défendre les droits fondamentaux de la société moderne."
+    }
+  ],
+  "evenements": [
+    {
+      "id": "02cd",
+      "titre": "Rud",
+      "description": "celui qui maitrise bien  jinky",
+      "image": "/assets/rectt.jpg",
+      "date": "2004-01-23"
+    }
+  ],
+  "facultes": [
+    {
+      "id": 1,
+      "nom": "Sc.Informatique",
+      "image": "/assets/maths.png",
+      "description": "la programmation et l’analyse scientifique.",
+      "departement": [
+        "math-info",
+        "Informatique de Gestion"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Medecine",
+      "image": "/assets/plus.png",
+      "description": " la programmation et l’analyse scientifique.",
+      "departement": [
+        "science infirmiere",
+        "laboratoire"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Sc. Economiques",
+      "image": "/assets/graph.png",
+      "description": "la programmation et l’analyse scientifique.",
+      "departement": [
+        "economie",
+        "gestion des entreprise"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Droits",
+      "image": "/assets/law.png",
+      "description": " la programmation et l’analyse scientifique.",
+      "departement": [
+        "droit privé",
+        "criminologie"
+      ]
+    }
+  ],
+  "professeurs": [
+    {
+      "id": 1,
+      "nom": "Wisley Kanyinda",
+      "image": "/assets/rectt.jpg",
+      "departement": "Droit privé",
+      "numero": "0821664494"
+    },
+    {
+      "id": 2,
+      "nom": "Daniel Mpela",
+      "image": "/assets/acad.jpg",
+      "departement": "Economie"
+    },
+    {
+      "id": 3,
+      "nom": "Mervedie Antho",
+      "image": "/assets/rectt.jpg",
+      "departement": "Math-info",
+      "numero": "0821664494"
+    },
+    {
+      "id": 4,
+      "nom": "Lorie tshilanda",
+      "image": "/assets/acad.jpg",
+      "departement": "Pharmacie",
+      "numero": "0821664494"
+    }
+  ],
+  "autorites": [
+    {
+      "id": 1,
+      "nom": "Elie Moreno",
+      "image": "/assets/rectt.jpg",
+      "poste": "Recteur"
+    },
+    {
+      "id": 2,
+      "nom": "Milamba Ntibi",
+      "image": "/assets/acad.jpg",
+      "poste": "Academique"
+    },
+    {
+      "id": 3,
+      "nom": "Than Mavuala",
+      "image": "/assets/rectt.jpg",
+      "poste": "charger de Rech. Scien."
+    }
+  ],
+  "userAdm": [
+    {
+      "id": 1,
+      "nom": "Merdi",
+      "postNom": "Kibasonga",
+      "password": "123456789"
+    },
+       {
+      "id": 2,
+      "nom": "Urie",
+      "postNom": "Mutombo",
+      "password": "987654321"
+    }
+  ]
+}

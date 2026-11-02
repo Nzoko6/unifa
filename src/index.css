@@ -1,0 +1,194 @@
+
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+.link{
+  margin-right: 4em;
+}
+.profil{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+   box-shadow: 0 6px 18px rgba(2, 5, 12, 0.678);
+}
+.profil:hover{
+  background: linear-gradient(135deg, rgb(110, 226, 207), #11b181d2);
+  color: rgb(255, 253, 253);
+    
+}
+.gardiants1{
+   
+  -webkit-text-stroke:  6px linear-gradient(135deg, #6A1B9A, #4c0261);
+}
+.touch1{
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  
+}
+.intro{
+   background: linear-gradient(135deg, #732aa0,#c469dd); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+}
+.intro1{
+   background: linear-gradient(135deg, #c469dd , #732aa0); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+}
+.gradient-text {
+  background: linear-gradient(135deg, #461366, #eca9ff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  -webkit-text-stroke: 0px rgb(121, 255, 244);
+  font-weight: bold;
+  
+}
+.gradient-text2 {
+  background: linear-gradient(135deg, rgb(65, 134, 123), #11b181d2); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  -webkit-text-stroke: 0px rgb(121, 255, 244);
+  font-weight: 20em;
+  
+}
+.serv{
+   background: linear-gradient(135deg, #224741ff, #11b174d2); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  font-weight: bold;
+}
+#btn{
+  border: 1px solid #3f105c;
+  color:#8c35c2 ;
+}
+#btn1{
+  border: 1px solid #f4a4ff;
+  color:#f4a4ff ;
+}
+#btn2{
+  border: 1px solid  #11b174d2;
+  color:#224741ff ;
+   box-shadow: 0 6px 18px rgba(2, 5, 12, 0.56);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  color: white;
+}
+.evtText{
+  -webkit-text-stroke: 1px rgb(97, 97, 97);
+}
+
+
+.transparent-accordion .accordion-item {
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+
+.transparent-accordion .accordion-button {
+  background-color: transparent !important;
+  color: #222 !important;
+  box-shadow: none !important;
+}
+
+
+.transparent-accordion .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+
+.transparent-accordion .accordion-body {
+  background-color: transparent !important;
+  color: #333 !important;
+}
+
+#gradient-text{
+ background: linear-gradient(135deg, rgb(89, 202, 183), #0bffd6); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  font-weight: bold;}
+
+  #gradient-text2{
+ background: linear-gradient(135deg, rgb(76, 156, 143), #02e6c0); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: large;
+}
+#bt2 {
+
+    box-shadow: 0 6px 18px rgba(2, 5, 12, 0.37);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  color:#ffffff ;
+  border: none;
+}
+#bt1 {
+  background: linear-gradient(135deg, #224741ff, #11b174d2);
+    box-shadow: 0 6px 18px rgba(2, 5, 12, 0.56);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  color:#ffffff ;
+}
+#btn:hover{
+  background: linear-gradient(135deg, #3f105c, rgb(204, 101, 233));
+  color:#ffffff ;
+}
+.bt{
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white;
+  width: 150px;
+}
+.gardiants2{
+      background: linear-gradient(135deg, #f10d65, #f56bbb);
+  color: white;
+  border: none;
+}
+.gardiants3{
+      background: linear-gradient(135deg, #32e282, #b6f74c);
+  color: white;
+  border: none;
+}
+.gardiants4{
+      background: linear-gradient(135deg, #57bcf7, #6230d8);
+  color: white;
+  border: none;
+}
+.gardiants5{
+      background: linear-gradient(135deg, #3bf6d7, #11b1a9);
+  color: white;
+  border: none;
+}
+.gardiants6{
+       background: linear-gradient(135deg, #3f105c, #cc65e9ff);
+  color: white;
+  border: none;
+}
+.gardiants7{
+      background: linear-gradient(135deg, #b843a4, #ffa3f0);
+  color: white;
+  border: none;
+  border-radius: 70px;
+}
+.card-soft-shadow:hover{
+ box-shadow: 0 0 10px 3px rgb(255, 55, 5);
+}
+.card-soft-shadow{
+ padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
